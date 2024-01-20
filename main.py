@@ -37,7 +37,6 @@ QueueDB = {}
 ReplyDB = {}
 FormtDB = {}
 NubBot = Client(
-    name=videomerger,
     session_name=Config.SESSION_NAME,
     api_id=int(Config.API_ID),
     api_hash=Config.API_HASH,
