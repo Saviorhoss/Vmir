@@ -58,12 +58,12 @@ async def start_handler(bot: Client, m: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Developer - @Savior_128", url="https://t.me/Savior_128")],
-                [InlineKeyboardButton("Support Group", url="https://t.me/Savior_128"),
+                [InlineKeyboardButton("Support Group", url="https://t.me/Savior_128")],
                 [InlineKeyboardButton("Bots Channel", url="https://t.me/Savior_128")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
-        )
+        
     )
 
 
